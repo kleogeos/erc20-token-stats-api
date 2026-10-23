@@ -1,0 +1,14 @@
+{
+  "name": "erc20-token-stats-api",
+  "version": "1.0.0",
+  "description": "REST API that returns price, 24h volume and (optionally) holder count for an ERC20 token, with an in-memory TTL cache so repeated lookups don't hit upstream rate limits.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
